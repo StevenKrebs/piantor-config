@@ -134,9 +134,9 @@
 <tspan x="415.2" dy="0">␣ /</tspan><tspan x="415.2" dy="12">NAV</tspan>
 </text>
 <g transform="rotate(15.0 512.4 472.4)"><rect class="thumb" x="478.4" y="436.4" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="512.4" y="470.4"><tspan x="512.4" dy="0">⎋ / FUN</tspan></text>
+<text class="label" text-anchor="middle" x="512.4" y="470.4"><tspan x="512.4" dy="0">⌫ / FUN</tspan></text>
 <g transform="rotate(-15.0 631.2 486.1)"><rect class="thumb" x="597.2" y="450.1" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="631.2" y="484.1"><tspan x="631.2" dy="0">⌫ / SYM</tspan></text>
+<text class="label" text-anchor="middle" x="631.2" y="484.1"><tspan x="631.2" dy="0">⎋ / SYM</tspan></text>
 <g transform="rotate(-5.0 728.4 465.2)"><rect class="thumb" x="694.4" y="429.2" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="728.4" y="457.2"><tspan x="728.4" dy="0">↵ / NUM</tspan></text>
 <g transform="rotate(5.0 822.0 458.0)"><rect class="thumb" x="788.0" y="422.0" rx="6" width="68" height="72.0"/></g>
