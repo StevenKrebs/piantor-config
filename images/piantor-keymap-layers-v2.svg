@@ -727,7 +727,7 @@
 
 <g transform="rotate(5.0 822.0 3298.0)"><rect class="thumb" x="788.0" y="3262.0" rx="6" width="68" height="72.0"/></g>
 
-<text class="legend" x="44" y="3496">Layer toggles (from BASE): NAV Space + Return · SYS Escape + Return (toggle)</text>
+<text class="legend" x="44" y="3496">Layer toggles (from BASE): NAV Space + Return · SYS Backspace + Return (toggle)</text>
 <text class="legend" x="44" y="3516">⇧ Shift · ⌃ Control · ⌥ Option · ⌘ Command · blank = unbound.</text>
 <g transform="translate(0,568)"><text class="label" text-anchor="middle" x="948.0" y="2076.0"><tspan x="948.0" dy="0">Vol. Up</tspan></text></g>
 <g transform="translate(0,568)"><text class="label" text-anchor="middle" x="631.2" y="2194.1"><tspan x="631.2" dy="0">Spotlight</tspan></text></g>

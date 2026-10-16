@@ -13,7 +13,7 @@ Custom ZMK firmware and keymap for [Keebart's 36-key Piantor Pro BT](https://www
 
 The keymap keeps letters on a conventional QWERTY base and puts frequently used modifiers on home-row holds. The approach follows [urob's timeless home-row mods](https://github.com/urob/zmk-config).
 
-Thumb keys combine ordinary taps with layer access or modifier chords. Space, Backspace, Escape, and Return hold Navigation, Function, Symbol, and Number, respectively. Tab and Delete hold OS-aware modifier chords. From Base, Space + Return toggles Navigation and Escape + Return toggles System. NAV can be held momentarily or left active with its toggle. On NAV & SYS, the Escape thumb returns directly to Base.
+Thumb keys combine ordinary taps with layer access or modifier chords. Space, Backspace, Escape, and Return hold Navigation, Function, Symbol, and Number, respectively. Tab and Delete hold OS-aware modifier chords. From Base, Space + Return toggles Navigation and Backspace + Return toggles System; combos stay on their physical key positions. NAV can be held momentarily or left active with its toggle. On NAV & SYS, the Escape thumb returns directly to Base.
 
 | Layer      | Label | Index | Role                                                                 |
 | ---------- | ----- | ----: | -------------------------------------------------------------------- |
