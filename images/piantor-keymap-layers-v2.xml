@@ -128,17 +128,17 @@
 <tspan x="1020.0" dy="0">/</tspan>
 </text>
 <g transform="rotate(-5.0 321.6 465.2)"><rect class="thumb" x="287.6" y="429.2" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="321.6" y="469.2"><tspan x="321.6" dy="0">⇥ / META</tspan></text>
+<text class="label" text-anchor="middle" x="321.6" y="469.2"><tspan x="321.6" dy="0">⎋ / META</tspan></text>
 <g transform="rotate(5.0 415.2 458.0)"><rect class="thumb" x="381.2" y="422.0" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="415.2" y="456.0">
 <tspan x="415.2" dy="0">␣ /</tspan><tspan x="415.2" dy="12">NAV</tspan>
 </text>
 <g transform="rotate(15.0 512.4 472.4)"><rect class="thumb" x="478.4" y="436.4" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="512.4" y="470.4"><tspan x="512.4" dy="0">⌫ / FUN</tspan></text>
+<text class="label" text-anchor="middle" x="512.4" y="470.4"><tspan x="512.4" dy="0">⇥ / FUN</tspan></text>
 <g transform="rotate(-15.0 631.2 486.1)"><rect class="thumb" x="597.2" y="450.1" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="631.2" y="484.1"><tspan x="631.2" dy="0">⎋ / SYM</tspan></text>
+<text class="label" text-anchor="middle" x="631.2" y="484.1"><tspan x="631.2" dy="0">↵ / SYM</tspan></text>
 <g transform="rotate(-5.0 728.4 465.2)"><rect class="thumb" x="694.4" y="429.2" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="728.4" y="457.2"><tspan x="728.4" dy="0">↵ / NUM</tspan></text>
+<text class="label" text-anchor="middle" x="728.4" y="457.2"><tspan x="728.4" dy="0">⌫ / NUM</tspan></text>
 <g transform="rotate(5.0 822.0 458.0)"><rect class="thumb" x="788.0" y="422.0" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="822.0" y="456.0">
     <tspan x="822.0" dy="0">⌦ / </tspan>
@@ -557,15 +557,15 @@
 <g transform="rotate(5.0 415.2 2730.0)"><rect class="thumb" x="381.2" y="2694.0" rx="6" width="68" height="72.0"/></g>
 
 <g transform="rotate(15.0 512.4 2744.4)"><rect class="thumb" x="478.4" y="2708.4" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="512.4" y="2748.4"><tspan x="512.4" dy="0">BASE</tspan></text>
+<text class="label" text-anchor="middle" x="321.6" y="2741.2"><tspan x="321.6" dy="0">BASE</tspan></text>
 
 <g transform="rotate(-15.0 631.2 2758.1)"><rect class="thumb" x="597.2" y="2722.1" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="631.2" y="2762.1">
-<tspan x="631.2" dy="0">⌫</tspan>
+<tspan x="631.2" dy="0">↵</tspan>
 </text>
 <g transform="rotate(-5.0 728.4 2737.2)"><rect class="thumb" x="694.4" y="2701.2" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="728.4" y="2735.2">
-<tspan x="728.4" dy="0">↵</tspan>
+<tspan x="728.4" dy="0">⌫</tspan>
 </text>
 <g transform="rotate(5.0 822.0 2730.0)"><rect class="thumb" x="788.0" y="2694.0" rx="6" width="68" height="72.0"/></g>
 <text class="label" text-anchor="middle" x="822.0" y="2734.0">
@@ -719,7 +719,7 @@
 <g transform="rotate(5.0 415.2 3298.0)"><rect class="thumb" x="381.2" y="3262.0" rx="6" width="68" height="72.0"/></g>
 
 <g transform="rotate(15.0 512.4 3312.4)"><rect class="thumb" x="478.4" y="3276.4" rx="6" width="68" height="72.0"/></g>
-<text class="label" text-anchor="middle" x="512.4" y="3310.4"><tspan x="512.4" dy="0">BASE</tspan></text>
+<text class="label" text-anchor="middle" x="321.6" y="3303.2"><tspan x="321.6" dy="0">BASE</tspan></text>
 
 <g transform="rotate(-15.0 631.2 3326.1)"><rect class="thumb" x="597.2" y="3290.1" rx="6" width="68" height="72.0"/></g>
 
@@ -727,7 +727,7 @@
 
 <g transform="rotate(5.0 822.0 3298.0)"><rect class="thumb" x="788.0" y="3262.0" rx="6" width="68" height="72.0"/></g>
 
-<text class="legend" x="44" y="3496">Layer toggles (from BASE): NAV Space + Return · SYS Backspace + Return (toggle)</text>
+<text class="legend" x="44" y="3496">Layer toggles (from BASE): NAV Space + Enter · SYS Tab + Enter (toggle)</text>
 <text class="legend" x="44" y="3516">⇧ Shift · ⌃ Control · ⌥ Option · ⌘ Command · blank = unbound.</text>
 <g transform="translate(0,568)"><text class="label" text-anchor="middle" x="948.0" y="2076.0"><tspan x="948.0" dy="0">Vol. Up</tspan></text></g>
 <g transform="translate(0,568)"><text class="label" text-anchor="middle" x="631.2" y="2194.1"><tspan x="631.2" dy="0">Spotlight</tspan></text></g>
