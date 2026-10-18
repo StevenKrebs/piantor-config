@@ -183,7 +183,7 @@
             // Keebart's five_col_layout preserves the six thumb positions.
 
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &thrm_left LEFT_SHIFT A  &thrm_left LCTRL S  &thrm_left LEFT_ALT D  &thrm_left LEFT_GUI F  &thrm_left GLOBE G  &kp H  &thrm_right RIGHT_GUI J  &thrm_right RIGHT_ALT K  &thrm_right RCTRL L  &thrm_right RSHIFT APOS      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH    &meta_mt 0 TAB  &lt 3 SPACE  &lt 4 BACKSPACE  &lt 2 ESC  &lt 1 RETURN  &hyper_mt 0 DELETE
+  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &thrm_left LEFT_SHIFT A  &thrm_left LCTRL S  &thrm_left LEFT_ALT D  &thrm_left LEFT_GUI F  &thrm_left GLOBE G  &kp H  &thrm_right RIGHT_GUI J  &thrm_right RIGHT_ALT K  &thrm_right RCTRL L  &thrm_right RSHIFT APOS      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH    &meta_mt 0 ESC  &lt 3 SPACE  &lt 4 TAB  &lt 2 ENTER  &lt 1 BACKSPACE  &hyper_mt 0 DELETE
             >;
         };
 
@@ -205,7 +205,7 @@
 
         NAVIGATION {
             bindings = <
-  &kp LG(BACKSPACE)  &kp LA(BACKSPACE)  &none  &key_repeat  &none  &none  &none  &kp INS  &none  &none      &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp GLOBE  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none      &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &none    &none  &none  &kp BACKSPACE  &to 0  &kp RETURN  &hyper_mt 0 DELETE
+  &kp LG(BACKSPACE)  &kp LA(BACKSPACE)  &none  &key_repeat  &none  &none  &none  &kp INS  &none  &none      &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp GLOBE  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none      &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &none    &meta_kp  &none  &to 0  &kp RET  &kp BACKSPACE  &hyper_mt 0 DELETE
             >;
 
             label = "NAV";
@@ -222,7 +222,7 @@
         SYSTEM {
             label = "SYS";
             bindings = <
-  &bootloader  &os  &smart_shift  &none  &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &bootloader      &studio_unlock  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none      &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_TOG  &sys_reset    &none  &none  &none  &to 0  &none  &none
+  &bootloader  &os  &smart_shift  &none  &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &bootloader      &studio_unlock  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none      &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_TOG  &sys_reset    &none  &none  &to 0  &none  &none  &none
             >;
         };
     };
