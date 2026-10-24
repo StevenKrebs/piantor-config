@@ -168,9 +168,9 @@
         };
 
         sys_layer {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <32 33>;
-            layers = <0>;
+            layers = <0 5>;
         };
     };
 
@@ -219,10 +219,18 @@
             label = "FUN";
         };
 
+        GAMING {
+            bindings = <
+  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &kp A  &kp S  &kp D  &thrm_left LEFT_GUI F  &kp G  &kp H  &kp J  &kp K  &kp L  &thrm_right RIGHT_SHIFT APOSTROPHE      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH    &kp LEFT_ALT  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &kp ESC
+            >;
+
+            label = "GAME";
+        };
+
         SYSTEM {
             label = "SYS";
             bindings = <
-  &bootloader  &os  &smart_shift  &none  &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &bootloader      &studio_unlock  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none      &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_TOG  &sys_reset    &to 0  &none  &none  &none  &none  &none
+  &bootloader  &os  &smart_shift  &none  &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &bootloader      &studio_unlock  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none      &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_TOG  &sys_reset    &to 0  &none  &to 5  &none  &none  &none
             >;
         };
     };
