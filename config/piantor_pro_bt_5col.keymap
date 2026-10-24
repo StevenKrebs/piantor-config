@@ -213,7 +213,7 @@
 
         FUNCTION {
             bindings = <
-  &kp F12  &kp F7  &kp F8  &kp F9  &screen_full  &none  &kp C_BRI_DN  &kp C_BRI_UP  &screen_lock  &none      &kp F11  &kp F4  &kp F5  &kp F6  &screen_area  &none  &thrm_right RIGHT_GUI C_PP  &thrm_right RIGHT_ALT C_PREV  &thrm_right RCTRL C_NEXT  &kp RSHIFT      &kp F10  &kp F1  &kp F2  &kp F3  &screen_adj  &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none    &none  &none  &none  &kp C_AC_SEARCH  &caps_logic CAPS 0  &emojis
+  &kp F12  &kp F7  &kp F8  &kp F9  &screen_full  &none  &screen_lock  &kp C_BRI_DN  &kp C_BRI_UP  &none      &kp F11  &kp F4  &kp F5  &kp F6  &screen_area  &none  &thrm_right RIGHT_GUI C_PP  &thrm_right RIGHT_ALT C_PREV  &thrm_right RCTRL C_NEXT  &kp RSHIFT      &kp F10  &kp F1  &kp F2  &kp F3  &screen_adj  &none  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none    &none  &none  &none  &kp C_AC_SEARCH  &caps_logic CAPS 0  &emojis
             >;
 
             label = "FUN";
@@ -221,7 +221,7 @@
 
         GAMING {
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P      &kp A  &kp S  &kp D  &thrm_left LEFT_GUI F  &kp G  &kp H  &kp J  &kp K  &kp L  &thrm_right RIGHT_SHIFT APOSTROPHE      &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH    &kp LEFT_ALT  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &kp ESC
+  &kp ESC  &kp Q  &kp W  &kp E  &kp R  &none  &none  &none  &none  &none      &kp LSHFT  &kp A  &kp S  &kp D  &kp G  &none  &none  &none  &none  &none      &kp LEFT_GUI  &kp X  &kp C  &kp V  &kp B  &none  &none  &none  &none  &none    &kp LEFT_ALT  &kp SPACE  &kp TAB  &kp ENTER  &kp BACKSPACE  &mo 0
             >;
 
             label = "GAME";
